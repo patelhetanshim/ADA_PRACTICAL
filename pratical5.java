@@ -30,7 +30,7 @@ public class pratical5 {
         if (low < high) {
             int pi = partition(low, high);
 
-            // Print phase after each partition
+            
             System.out.println("Stage after partition at index " + pi + ":");
             for (int k = 0; k < size; k++) {
                 System.out.print(a[k] + " ");
